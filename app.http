@@ -1,0 +1,26 @@
+GET https://chettayaakashqhyvpnjscpdiitb.drops.nxtwave.tech/movies
+
+POST https://chettayaakashqhyvpnjscpdiitb.drops.nxtwave.tech/movies
+Content-Type: application/json
+
+{
+  "directorId": 6,
+  "movieName": "Jurassic Park",
+  "leadActor": "Jeff Goldblum"
+}
+GET https://chettayaakashqhyvpnjscpdiitb.drops.nxtwave.tech/movies/49
+
+PUT https://chettayaakashqhyvpnjscpdiitb.drops.nxtwave.tech/movies/47
+Content-Type: application/json
+
+{
+  "directorId": 24,
+  "movieName": "Thor",
+  "leadActor": "Christopher Hemsworth"
+}
+
+DELETE https://chettayaakashqhyvpnjscpdiitb.drops.nxtwave.tech/movies/46
+
+GET https://chettayaakashqhyvpnjscpdiitb.drops.nxtwave.tech/directors
+
+GET https://chettayaakashqhyvpnjscpdiitb.drops.nxtwave.tech/directors/1/movies
